@@ -1,0 +1,263 @@
+button:hover{
+    cursor: pointer;
+    transform: translateY(-0.25em);
+    transition-duration: .4s;
+    background: rgb(220, 250, 250);   
+
+}
+
+img:hover{
+    cursor: pointer;
+    transform: translateY(-0.25em);
+    transition-duration: .4s;
+}
+
+
+.news-feed .footer button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: .7em;
+    border-radius: 50%;
+}
+
+
+.news-feed .footer button:hover{
+    background: rgb(220, 250, 250);   
+    
+}
+
+i:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    transition-duration: .4s;
+    background: rgb(220, 250, 250);
+    border-radius: 50%;   
+}
+.nav-bar{
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    top: 0px;
+    border-right: 1px solid rgb(50, 136, 190);
+    margin-left: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+
+.nav-bar div{
+    padding: 4%;
+    padding-left: 25%;
+    margin-top: 6%;
+    transition-duration: .4s;
+}
+
+.nav-bar > div:hover{
+    background: rgb(220, 250, 250);   
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translateY(-0.3em);
+}
+
+.nav-bar span{
+    margin-left: 8%;
+}
+
+.nav-bar .moreitems > div{
+    display: none;
+    font-size: small;
+}
+
+.nav-bar .moreitems:hover div{
+    display: block;
+}
+
+.nav-bar .moreitems div:hover{
+    background: rgb(220, 250, 250); 
+    border-radius: 10px;
+    transform: translateY(-0.3em);
+
+}
+
+.news-feed{
+    width: 50%;
+    margin-left: 21em;
+    float: left;
+    position: relative;
+}
+
+.home{
+    margin-left: 10px;
+    float: left;
+    position: fixed;
+    top: 0;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.home form{
+    float: right;
+    margin-top: 1.2em;
+    margin-right: .7em;
+}
+
+.home form input{
+    height: 3em;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+
+.news-feed .post{
+    margin-top: 104px;
+    height: 30%;
+    width: 100%;
+
+}
+
+.news-feed .d{
+    height: 50px;
+    width: 40px;
+    margin-left: 9px;
+}
+
+.news-feed .post input{
+    width: 88%;
+    margin-left: 13px;
+    border: 1.5px solid black;
+    height: 6.5em;
+    float: right;
+    padding-left: 6px ;
+    padding-top: 0;
+}
+
+.news-feed .post .emoji i{
+     margin-left: 15px;
+     color: rgb(46, 180, 238);
+     padding: 1em;
+     border-radius: 50%;
+}
+
+.news-feed .feed{
+    margin-top: 4em;
+    border: 5px solid rgb(220, 250, 250);   
+    padding: .5em .5em;
+    padding-right: 4em;
+    border-radius: 10px;
+}
+
+.news-feed .feed .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-feed .feed .header img{
+    transform: translateY(1.2em);
+}
+
+.news-feed .feed .header span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.news-feed .feed .header button{
+    position: relative;
+}
+
+.news-feed .feed .header button .popupitems{
+    display: none;
+}
+
+.news-feed .feed .header button:hover .popupitems{
+    display: block;
+    transition-delay: .4s;
+    border-radius: 8px;
+    background: none;
+}
+
+.news-feed .header button .popupitems div{
+    border: 1px solid black;
+    padding: 1em 0em;
+    padding-left: 8px;
+    font-weight: bold;
+    text-align: left;
+    width: 11em;
+    height: 2em;
+    border-radius: 8px;
+    transition-duration: .4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.news-feed .header button .popupitems div span{
+    margin-left: 1em;
+}
+
+.news-feed .header button .popupitems div:hover{
+    background: rgb(220, 250, 250);   
+    cursor: pointer;
+}
+
+.news-feed .body{
+    margin-top: 2em;
+}
+
+.news-feed .body img,p{
+    width: 85%;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+}
+
+.news-feed .footer{
+    clear: right;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4.9em;
+}
+
+.news-feed .footer button{
+    margin-top: .5em;
+    background: none;
+    border: none;
+}
+
+.trends{
+    float: right;
+    position:fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border-left: 1px solid rgb(50, 136, 190);
+
+}
+
+.trends > h1{
+    margin-left: 2em;    
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trends .content{
+    margin-left: 2em;
+}
+
+.feed{
+    margin-left: 2em;
+}
+
+.feed .left{
+    float: left;
+}
+
+.feed .right{
+    float: right;
+}
+
+.feed .right img{
+    height: 55px;
+    margin-right: 8px;
+}
